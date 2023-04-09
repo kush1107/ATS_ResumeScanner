@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ATS_ResumeScanner</groupId>
+  <artifactId>ATS_ResumeScanner</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ATS_ResumeScanner - created by Kushal Parikh, SDET Automation Architech</name>
+  <description>This will scans the keyword from resume ,gives its match percentage ,extract email id  &amp; extracts LinkedIn Url </description>
+  
+  
+  
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+		<dependency>
+		    <groupId>org.apache.pdfbox</groupId>
+		    <artifactId>pdfbox</artifactId>
+		    <version>2.0.27</version>
+		</dependency>
+  
+  </dependencies>
+  
+</project>
